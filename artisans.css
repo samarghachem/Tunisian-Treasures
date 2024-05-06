@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #cfc8b8;
+}
+
+header {
+  color: #f4f4f4;
+  padding: 20px;
+  background-image: url("Ressources/artisan.jpg");
+  background-size: cover;
+  text-shadow: 0 0 3px #444, 0 0 3px #444, 0 0 3px #444, 0 0 3px #444,
+    0 0 3px #444;
+  height: 300px;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+nav ul {
+  position: absolute;
+  top: 260px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 17px;
+}
+
+.artisans-section {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  font-size: 40px;
+}
+
+.artisans-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.artisan {
+  text-align: center;
+}
+
+.artisan img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.artisan h2 {
+  color: #333;
+  margin-top: 10px;
+}
+
+.artisan p {
+  color: #666;
+  margin-top: 5px;
+}

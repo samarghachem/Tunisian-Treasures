@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+header {
+  color: #f4f4f4;
+  padding: 20px;
+  background-image: url("Ressources/artisan.jpg");
+  background-size: cover;
+  text-shadow: 0 0 3px #444, 0 0 3px #444, 0 0 3px #444, 0 0 3px #444,
+    0 0 3px #444;
+  height: 300px;
+}
+header h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+nav ul {
+  position: absolute;
+  top: 260px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 17px;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+h4 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.payment-methods,
+.order-information {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.payment-methods {
+  display: flex;
+  justify-content: space-around;
+}
+
+.payment-method {
+  text-align: center;
+}
+
+.payment-method img {
+  height: 30px;
+}
+
+.order-information form {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-information label {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.order-information input,
+.order-information button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.order-information button {
+  background-color: #79683f;
+  color: #fff;
+  cursor: pointer;
+}
+
+.order-information button:hover {
+  background-color: #444;
+}

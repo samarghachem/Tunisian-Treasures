@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 20px;
+  background-image: url("Ressources/artisan.jpg");
+  background-size: cover;
+  text-shadow: 0 0 3px #444, 0 0 3px #444, 0 0 3px #444, 0 0 3px #444,
+    0 0 3px #444;
+  height: 300px;
+}
+
+nav ul {
+  position: absolute;
+  top: 260px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 17px;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 20px;
+  height: 60vh;
+}
+
+.login {
+  width: 50%;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  margin-left: 10%;
+}
+
+.signup {
+  display: flexbox;
+  width: 50%;
+  background-color: #cfc8b8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 500px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+input,
+button {
+  margin: 10px 0;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  background-color: #79683f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #444;
+}
+
+.bouton {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+hr {
+  height: 1px;
+  background-color: black;
+  margin: 10px 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

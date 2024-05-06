@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input,
+button {
+  margin: 10px 0;
+  width: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+button {
+  cursor: pointer;
+  background-color: #79683f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  border-color: #cfc8b8;
+}
+.bouton {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  padding: 20px;
+  background-image: url("Ressources/artisan.jpg");
+  background-size: cover;
+  text-shadow: 0 0 3px #444, 0 0 3px #444, 0 0 3px #444, 0 0 3px #444,
+    0 0 3px #444;
+  height: 300px;
+}
+
+header h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 130px;
+}
+
+nav ul {
+  position: absolute;
+  top: 260px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 17px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form input:focus {
+  outline: none;
+  border: 1px solid cyan;
+  transition: border-color 0.5s ease-in-out;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid cyan;
+  transition: border-color 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+.content-container {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 30px;
+}

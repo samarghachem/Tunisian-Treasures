@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input,
+button {
+  margin: 10px 0;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+button {
+  cursor: pointer;
+  background-color: #79683f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  border-color: #cfc8b8;
+}
+.bouton {
+  display: flex;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #444;
+  transition: background-color 0.3s;
+}
+header {
+  background-image: url("Ressources/artisan.jpg");
+  background-size: cover;
+  height: 300px;
+  text-shadow: 0 0 3px #444, 0 0 3px #444, 0 0 3px #444, 0 0 3px #444,
+    0 0 3px #444;
+  padding: 20px;
+}
+
+.form input:not([type="checkbox"]) {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.content-container {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+nav ul {
+  position: absolute;
+  top: 260px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 17px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="homepage.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Tunisian Treasures</h1>
+      <br /><br />
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="aboutus.html">About us</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="productss.html">Products</a></li>
+          <li><a href="artisans.html">Our artisans</a></li>
+          <li><a href="contactus.php">Contact us</a></li>
+          <li><a href="events.html">Our events</a></li>
+          <li><a href="#vendor">Become a vendor</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Discover Unique Artworks</h2>
+      <p>Explore a world of creativity and craftsmanship.</p>
+      <a href="productss.html" class="btnn">Explore Now</a>
+    </section>
+    <hr />
+    <section class="product-showcase">
+      <h2>Our best sellers</h2>
+      <div class="product">
+        <div
+          class="image-container"
+          onmouseover="zoomIn(this)"
+          onmouseout="zoomOut(this)"
+        >
+          <img src="Ressources/margoum4.jpg" alt="margoum" />
+        </div>
+        <h3>Margoum</h3>
+        <a href="decoration.html" class="btn">Buy Now</a>
+      </div>
+      <div class="product">
+        <div
+          class="image-container"
+          onmouseover="zoomIn(this)"
+          onmouseout="zoomOut(this)"
+        >
+          <img src="Ressources/service.jpg" alt="Product 2" />
+        </div>
+        <h3>Dinner Set</h3>
+
+        <a href="kitchen_section.html" class="btn">Buy Now</a>
+      </div>
+      <hr />
+      <br />
+      <section class="Become a vendor" id="vendor">
+        <h2>Become a vendor too!</h2>
+        <br />
+        <a href="vendor.php" class="btn">Join Now</a>
+      </section>
+    </section>
+    <script src="homepage.js"></script>
+  </body>
+</html>

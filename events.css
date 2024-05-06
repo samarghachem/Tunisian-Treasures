@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cfc8b8;
+}
+header {
+  color: #f4f4f4;
+  padding: 20px;
+  background-image: url("Ressources/artisan.jpg");
+  background-size: cover;
+  text-shadow: 0 0 3px #444, 0 0 3px #444, 0 0 3px #444, 0 0 3px #444,
+    0 0 3px #444;
+  height: 300px;
+}
+header h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+nav ul {
+  position: absolute;
+  top: 260px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 17px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.event {
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+}
+
+.event-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+.event-details {
+  padding: 20px;
+}
+.event-details h2 {
+  margin-bottom: 10px;
+}
+.event-details p {
+  margin-bottom: 8px;
+}
+
+.event-details p {
+  color: #555;
+}
+.event:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}

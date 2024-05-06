@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+header {
+  color: #f4f4f4;
+  padding: 20px;
+  background-image: url("Ressources/artisan.jpg");
+  background-size: cover;
+  text-shadow: 0 0 3px #444, 0 0 3px #444, 0 0 3px #444, 0 0 3px #444,
+    0 0 3px #444;
+  height: 300px;
+}
+h1 {
+  text-align: center;
+}
+nav ul {
+  position: absolute;
+  top: 260px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 17px;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.information {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.information form {
+  display: flex;
+  flex-direction: column;
+}
+
+.information label {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.information input,
+.information button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.information button {
+  background-color: #79683f;
+  color: #fff;
+  cursor: pointer;
+}
+
+.information button:hover {
+  background-color: #444;
+}
+p {
+  padding: 10px;
+  line-height: 25px;
+}

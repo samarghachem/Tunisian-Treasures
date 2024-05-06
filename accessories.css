@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  color: #f4f4f4;
+  padding: 20px;
+  background-image: url("Ressources/artisan.jpg");
+  background-size: cover;
+  text-shadow: 0 0 3px #444, 0 0 3px #444, 0 0 3px #444, 0 0 3px #444,
+    0 0 3px #444;
+  height: 300px;
+}
+nav ul {
+  position: absolute;
+  top: 260px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 17px;
+}
+header h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.product-showcase {
+  text-align: center;
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.product {
+  display: inline-block;
+  margin: 20px;
+}
+
+.product img {
+  width: 250px;
+  height: 250px;
+}
+
+.product h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.product p {
+  font-size: 14px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #cfc8b8;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 5%;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+.zoom {
+  transition: transform 0.01s;
+}
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.shopping {
+  position: relative;
+  text-align: right;
+}
+
+.shopping img {
+  width: 30px;
+  background-color: #cfc8b8;
+  cursor: pointer;
+}
+.shopping span {
+  background-color: red;
+  border-radius: 50%;
+  justify-content: center;
+  position: absolute;
+  top: -5px;
+  left: 99%;
+  padding: 2px 10px;
+}
+.cart {
+  position: fixed;
+  top: 0;
+  background-color: #cfc8b8;
+  height: 100%;
+  width: 300px;
+  left: 100%;
+}
+.cart h1 {
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  padding: 20px;
+}
+.checkout {
+  background-color: #9e8855;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-between;
+  padding: 15px;
+  position: absolute;
+}
+.checkout .close,
+.checkout .total,
+.checkout .pay {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+}
+.checkout .close {
+  cursor: pointer;
+}
+.active .cart {
+  left: calc(100% - 300px);
+}
+button {
+  background-color: #9e8855;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
